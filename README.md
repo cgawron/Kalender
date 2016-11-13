@@ -17,5 +17,5 @@ to create the PDF.
 ## Converting sRGB images to CMYK 
 On Linux, you can convert sRGB iamges to CMYK using the command
 ```
-/usr/bin/convert rgb.jpg -profile ../sRGB.icc -profile ../ISOcoated_v2_eci.icc cmyk.jpg
+/usr/bin/convert rgb.jpg -profile sRGB.icc -profile ISOcoated_v2_eci.icc cmyk.jpg
 ```
