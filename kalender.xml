@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+
+<kalender year="2017" titel="titel.svg">
+
+ <!-- Pro Monat wird ein Eintrag mit folgenden Attributen benötigt:
+      days:  Zahl der Tage
+      first: Wochentag des ersten Tages (0=Montag)
+      lang:  Sprache des Monatsnames (s. month.xml)
+
+      Geschachtelt werden ein Element <photo/> mit dem Photo und ggf. <holiday/> für Feiertage
+
+      Für das Titelblatt wird images/titel als Bild verwendet, der Text wird in kalender.xsl "eingestellt".
+ --> 
+
+ <month days="31" first="6">
+   <photo src="images/01.jpg" author="R. A." description="Planspiel Logistik" />
+   <holiday name="Neujahr" day="1" />
+ </month>
+
+ <month days="28" first="2" align="right">
+   <photo src="images/02.jpg" author="R. A." description="Laborpraktikum Fertigungstechnik" />
+ </month>
+
+ <month days="31" first="2" align="right">
+   <photo src="images/03.jpg" author="R. A." description="Mathe-Lernlabor" />
+ </month>
+
+ <month days="30" first="5" align="right">
+   <photo src="images/04.jpg" author="R. A." description="Platinenfertigung per Rapid Prototyping"/>
+<holiday name="Karfreitag" day="14"/>
+   <holiday name="Ostermontag" day="17"/>
+ </month>
+
+ <month days="31" first="0">
+   <photo src="images/05.jpg" author="A. M." description="Schlüsselkompetenz Teambildung"/>
+   <holiday name="Tag der Arbeit" day="1"/>
+   <holiday name="Christi Himmelfahrt" day="25"/>
+ </month>
+
+ <month days="30" first="3">
+   <photo src="images/06.jpg" author="A. I." description="Innovationslabor"/>
+<holiday name="Pfingstmontag" day="5"/>
+<holiday name="Frohnleichnam" day="15"/>
+ </month>
+
+ <month days="31" first="5">
+   <photo src="images/07.jpg" author="E. S." description="Dampflos Digital"/>
+ </month>
+
+ <month days="31" first="1" align="right">
+   <photo src="images/08.jpg" author="L. S." description="Exkursion Schottland"/>
+ </month>
+
+ <month days="30" first="4">
+   <photo src="images/09.jpg" author="R. A." description="Haus der kleinen Forscher - Workshop Astronomie"/>
+ </month>
+
+ <month days="31" first="6">
+   <photo src="images/10.jpg" author="R. A." description="Roboter-AG"/>
+   <holiday name="Tag der Deutschen Einheit" day="3"/>
+   <holiday name="Reformationstag" day="31"/>
+ </month>
+
+ <month days="30" first="2">
+   <photo src="images/11.jpg" author="J. R." description="Auslandspraktikum Singapur"/>
+   <holiday name="Allerheiligen" day="1"/>
+ </month>
+
+ <month days="31" first="4"> 
+   <photo src="images/12.jpg" author="C. K." description="Schülerkunstausstellung"/>
+   <holiday name="1. Weihnachtstag" day="25"/>
+   <holiday name="2. Weihnachtstag" day="26"/>
+ </month>
+
+</kalender>

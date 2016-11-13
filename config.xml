@@ -1,0 +1,19 @@
+<fop version="1.0">
+  <target-resolution>250</target-resolution>
+  <renderers>
+    <renderer mime="application/pdf">
+      <filterList type="default">
+        <!-- provides compression using zlib flate (default is on) -->
+        <value>flate</value>
+      </filterList>
+      <output-profile>/usr/share/color/icc/ISOcoated_v2_eci.icc</output-profile>
+
+      <fonts>
+        <!-- <directory>./fonts</directory> -->
+        <font embed-url="file:fonts/Futura_1.ttf" encoding-mode="single-byte">
+          <font-triplet name="Futura" style="normal" weight="normal"/>
+        </font>
+      </fonts>
+    </renderer>
+  </renderers>
+</fop>
