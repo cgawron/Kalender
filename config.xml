@@ -9,10 +9,12 @@
       <output-profile>/usr/share/color/icc/ISOcoated_v2_eci.icc</output-profile>
 
       <fonts>
-        <!-- <directory>./fonts</directory> -->
-        <font embed-url="file:fonts/Futura_1.ttf" encoding-mode="single-byte">
+        <directory>./fonts</directory>
+<!--
+        <font embed-url="file:/fonts/Futura_1.ttf" encoding-mode="single-byte">
           <font-triplet name="Futura" style="normal" weight="normal"/>
-        </font>
+          </font>
+-->
       </fonts>
     </renderer>
   </renderers>
