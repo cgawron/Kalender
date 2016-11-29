@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<months>
+  <month>
+    <name lang="german">Januar</name>
+    <name lang="kasakh">Қаңтар</name>
+    <name lang="chinese">一月</name>
+  </month>
+  <month>
+    <name lang="german">Februar</name>
+    <name lang="kasakh">Ақпан</name>
+    <name lang="chinese">二月</name>
+  </month>
+  <month>
+    <name lang="german">März</name>
+    <name lang="kasakh">Наврыз</name>
+    <name lang="chinese">三月</name>
+  </month>
+  <month>
+    <name lang="german">April</name>
+    <name lang="kasakh">Көкек</name>
+    <name lang="chinese">四月</name>
+  </month>
+  <month>
+    <name lang="german">Mai</name>
+    <name lang="kasakh">Мамыр</name>
+    <name lang="chinese">五月</name>
+  </month>
+  <month>
+    <name lang="german">Juni</name>
+    <name lang="kasakh">Мавсым</name>
+    <name lang="chinese">六月</name>
+  </month>
+  <month>
+    <name lang="german">Juli</name>
+    <name lang="kasakh">Шилде</name>
+    <name lang="chinese">七月</name>
+  </month>
+  <month>
+    <name lang="german">August</name>
+    <name lang="kasakh">Тамыз</name>
+    <name lang="chinese">八月</name>
+  </month>
+  <month>
+    <name lang="german">September</name>
+    <name lang="kasakh">Қыркуек</name>
+    <name lang="chinese">九月</name>
+  </month>
+  <month>
+    <name lang="german">Oktober</name>
+    <name lang="kasakh">Қазан</name>
+    <name lang="chinese">十月</name>
+  </month>
+  <month>
+    <name lang="german">November</name>
+    <name lang="kasakh">Қараша</name>
+    <name lang="chinese">十一月</name>
+  </month>
+  <month>
+    <name lang="german">Dezember</name>
+    <name lang="kasakh">Желтоқсан</name>
+    <name lang="chinese">十二月</name>
+  </month>
+</months>
